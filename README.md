@@ -5,24 +5,17 @@ Credit to the [Data Science Working Group](http://datascience.codeforsanfrancisc
 Begin reading `instructions.md` to get started.
 
 ## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
+The purpose of this project is to calculate the average, median, and standard deviation for Amazon's stock prices over 9 weeks. I tested the code using the validation script.
 
 ### Methods Used
 * Inferential Statistics
-* Machine Learning
-* Data Visualization
-* Predictive Modeling
-* etc.
+* Validation Script
+* GitHub Actions
 
 ### Technologies
-* R 
 * Python
-* D3
-* PostGres, MySql
-* Pandas, jupyter
-* HTML
-* JavaScript
-* etc. 
+* Statistics
 
 ## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
+In this project, I used a validation script to check if my data analysis pipeline code working as intended. Our goal for this project is to calculate the average, median, and standard deviation of Amazon's stock prices over 9 weeks. The raw data was provided to us in the 'amzn.csv' file. This project requires us to have a solid understanding of for loops and control structures in Python. We had to clean our data by removing any extra spaces and unnecessary information, such as dates. Then creating new lists and appending the clean data into that list. Finally, using the stats module that we imported, we calculated our median and standard deviation. Everything was verified through the validation script created to test if our code is running correctly. Some challenges I faced in this project include creating nested for loops.
+
